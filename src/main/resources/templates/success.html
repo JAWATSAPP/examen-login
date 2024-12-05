@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>INGRESO EXITOSO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>SESION INICIADO</title>
+    
+   
+        <style> body {
+                font-family: Arial, Helvetica, sans-serif; 
+                display: flex; 
+                justify-content: center;
+                align-items: center; 
+                height: 100vh; 
+                margin: 0; 
+                background-color: #00cccc; 
+                color: #664ae2;
+            } .container { 
+                background-color: rgb(221, 236, 194);
+                padding: 20px; border-radius: 10px; 
+                box-shadow: 40px -10px 70px rgba(201, 147, 218, 0.9);
+                text-align: center;
+                min-width: 300px;
+                max-width: 500px;
+                width: fit-content;
+                margin: 20px;
+            } .form-group {
+                margin-bottom: 15px; 
+            } label { 
+                display: block; 
+                margin-bottom: 5px; 
+            } input { 
+                width: 100%; 
+                padding: 8px;
+                box-sizing: border-box; 
+                border: 1px solid #ccc;
+                border-radius: 4px; 
+                transition: all 0.3s ease; 
+            } input::placeholder {
+                text-align: center; 
+            } input:hover{
+                border: 2px solid #14be69;
+                background-color: #88ca0d; 
+                color: rgb(76, 6, 240); 
+                cursor: pointer; 
+            } 
+            input:active { 
+                background-color: #e5e90b;
+            } 
+            input:focus {
+                outline: none; 
+            }
+            .botones-container {
+                display: flex; 
+                justify-content: center;
+                gap: 20px; 
+            }
+            button { 
+                background-color: #5f9ea0; 
+                color: rgb(55, 17, 224); 
+                border: none;
+                padding: 10px 25px;
+                font-size: 15px; 
+                border-radius: 5px; 
+                cursor: pointer;
+                margin: 5px;
+                width: 100px; /* Ancho fijo para los botones */ }
+            button:hover {
+                background-color: #1baf8a; 
+                color: rgb(28, 223, 38); 
+            } button:active {
+                background-color: #e66713;
+                color: rgb(231, 210, 21); 
+            }
+        </style>
+        
+
+        </head>
+    <body>
+        <div class="container">
+            <h2>Login exitoso</h2> 
+        <p>Te has logueado correctamente.</p>
+     
+        <button onclick="window.location.href = '/login'">Volver al Registro</button>
+        <br>
+        </div>
+        
+    </body>
+</html>
